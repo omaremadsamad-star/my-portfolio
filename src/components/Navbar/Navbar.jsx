@@ -54,10 +54,11 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contact"
-            className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-all duration-200 hover:-translate-y-0.5 shadow-md shadow-blue-900/20"
+            href="/Omar_CV.pdf"
+            download="Omar_Emad_Samad_CV.pdf"
+            className="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white bg-slate-900 hover:bg-slate-800 border border-slate-800 rounded-md transition-all duration-200 hover:-translate-y-0.5"
           >
-            Hire Me
+            Download CV
           </a>
         </div>
 
@@ -87,11 +88,12 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/Omar_CV.pdf"
+            download="Omar_Emad_Samad_CV.pdf"
             onClick={() => setIsOpen(false)}
-            className="w-full text-center px-4 py-2.5 text-base font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors duration-200 shadow-md"
+            className="w-full text-center px-4 py-2.5 text-base font-medium text-slate-300 hover:text-white bg-slate-900 hover:bg-slate-800 border border-slate-800 rounded-md transition-colors duration-200"
           >
-            Hire Me
+            Download CV
           </a>
         </div>
       </div>
