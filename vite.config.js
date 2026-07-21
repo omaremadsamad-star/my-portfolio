@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/my-portfolio/', // 👈 Moved out of the plugins array to here
+  base: './', // Makes asset paths relative so it works on both Netlify (root) and GitHub Pages (subpath)
 })
